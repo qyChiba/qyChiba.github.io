@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="艺术与篮球-19937 题目： 小蓝出生于一个艺术与运动并重的家庭中。\n妈妈是位书法家，她希望小蓝能通过练习书法，继承她的艺术天赋，并练就一手好字。爸爸是一名篮球教练，他希望小蓝能通过篮球锻炼身体，培养运动的激情和团队合作的精神。\n">
+<title>艺术与篮球-蓝桥杯</title>
+
+<link rel='canonical' href='https://qyChiba.github.io/p/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/'>
+
+<link rel="stylesheet" href="/scss/style.min.4580eb6c9e0a20cbbb5257a0708bb8d51748210df631731786148a649072d243.css"><meta property='og:title' content="艺术与篮球-蓝桥杯">
+<meta property='og:description' content="艺术与篮球-19937 题目： 小蓝出生于一个艺术与运动并重的家庭中。\n妈妈是位书法家，她希望小蓝能通过练习书法，继承她的艺术天赋，并练就一手好字。爸爸是一名篮球教练，他希望小蓝能通过篮球锻炼身体，培养运动的激情和团队合作的精神。\n">
+<meta property='og:url' content='https://qyChiba.github.io/p/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/'>
+<meta property='og:site_name' content='千叶——AcMiner'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-09-01T23:00:26&#43;08:00'/><meta property='article:modified_time' content='2025-09-01T23:00:26&#43;08:00'/><meta property='og:image' content='https://qyChiba.github.io/p/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg' />
+<meta name="twitter:title" content="艺术与篮球-蓝桥杯">
+<meta name="twitter:description" content="艺术与篮球-19937 题目： 小蓝出生于一个艺术与运动并重的家庭中。\n妈妈是位书法家，她希望小蓝能通过练习书法，继承她的艺术天赋，并练就一手好字。爸爸是一名篮球教练，他希望小蓝能通过篮球锻炼身体，培养运动的激情和团队合作的精神。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://qyChiba.github.io/p/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_bc479685c9ded74d.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">千叶——AcMiner</a></h1>
+            <h2 class="site-description">黎明之前最黑暗</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V6M5 12l7-7 7 7"/></svg>
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友情链接</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#题目">题目：</a></li>
+    <li><a href="#解题思路"><code>解题思路</code>：</a></li>
+    <li><a href="#最终代码">最终代码：</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/">
+                <img src="/p/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview_hu_6f99e9ac49785655.jpg"
+                        srcset="/p/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview_hu_6f99e9ac49785655.jpg 800w, /p/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview_hu_5fed3d168c028af4.jpg 1600w"
+                        width="800" 
+                        height="800" 
+                        loading="lazy"
+                        alt="Featured image of post 艺术与篮球-蓝桥杯" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/" >
+                蓝桥杯
+            </a>
+        
+            <a href="/categories/%E7%AE%97%E6%B3%95/" >
+                算法
+            </a>
+        
+            <a href="/categories/%E6%97%A5%E6%9C%9F%E6%A8%A1%E6%8B%9F/" >
+                日期模拟
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/">艺术与篮球-蓝桥杯</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-09-01</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="艺术与篮球-19937"><a class="link" href="https://www.lanqiao.cn/problems/?first_category_id=1&amp;problem_id=19937"  target="_blank" rel="noopener"
+    >艺术与篮球-19937</a>
+</h1><h2 id="题目">题目：
+</h2><p>小蓝出生于一个艺术与运动并重的家庭中。</p>
+<p>妈妈是位书法家，她希望小蓝能通过练习书法，继承她的艺术天赋，并练就一手好字。爸爸是一名篮球教练，他希望小蓝能通过篮球锻炼身体，培养运动的激情和团队合作的精神。</p>
+<p>为了既满足妈妈的期望，又不辜负爸爸的心意，小蓝决定根据日期的笔画数来安排自己的练习。首先，他会将当天的日期按照“YYYYMMDD”的格式转换成一个8位数，然后将这8位数对应到汉字上，计算这些汉字的总笔画数。如果总笔画数超过50，他就去练习篮球；如果总笔画数不超过50，他就去练习书法。</p>
+<p>例如，在2024年1月1日这天，日期可表示为一个8位数字20240101，其转换为汉字是&quot;二零二四零一零一”。日期的总笔画数为2+13+2+5+13+1+13+1=50，因此在这天，小蓝会去练习书法。</p>
+<p>一下是汉字的笔画数对照表：</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">汉字</th>
+          <th style="text-align: left">笔画数</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">零</td>
+          <td style="text-align: left">13</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">一</td>
+          <td style="text-align: left">1</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">二</td>
+          <td style="text-align: left">2</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">三</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">四</td>
+          <td style="text-align: left">5</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">五</td>
+          <td style="text-align: left">4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">六</td>
+          <td style="text-align: left">4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">七</td>
+          <td style="text-align: left">2</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">八</td>
+          <td style="text-align: left">2</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">九</td>
+          <td style="text-align: left">2</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>现在，请你帮助小蓝统计一下，在2000年1月1日到2024年4月13日这段时间内，小蓝有多少天是在练习篮球？</p>
+<h2 id="解题思路"><code>解题思路</code>：
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">这道题目主要意思是从2000年1月1日~2024年4月13日期间，把年月日转换成汉字后总笔画数&gt;50就去练篮球。求共有多少个满足条件的日期。
+</span></span><span class="line"><span class="cl">思路：
+</span></span><span class="line"><span class="cl">涉及到日期题目就要联想到数组、遍历、润平年...
+</span></span><span class="line"><span class="cl">要定义一个值为每个月具体天数的数组；
+</span></span><span class="line"><span class="cl">题目中要把日期转换成汉字的话，那肯定要定义一个值为笔画数的汉字数组。
+</span></span><span class="line"><span class="cl">定义一个方法判断闰平年--&gt;{闰年：(year%400==0)||(year %4==0&amp;&amp;year%100!=0)}
+</span></span><span class="line"><span class="cl">定义两个变量，用于给汉字日期相加和满足条件的日期++。
+</span></span><span class="line"><span class="cl">三层循环(分别表示年月日)，再在循环里定义8个变量(用于取日期上每一个数字)。
+</span></span><span class="line"><span class="cl">然后就是在if判断转换后的汉字日期总笔画数是否&gt;50，满足就++
+</span></span><span class="line"><span class="cl">最后就是加一个判断条件:当日期满足2024-4-13就输出并且return;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>最后的if判断语句的结束语句为什么不用break;而是用return;？</p>
+<p><code>因为break是结束当前循环(day的循环)，return是终止当前方法的执行。它是终止solve()整个方法.</code></p></blockquote>
+<h2 id="最终代码">最终代码：
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Main</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">//    定义天数</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">static</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">months</span><span class="o">[]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="o">-</span><span class="n">1</span><span class="p">,</span><span class="w"> </span><span class="n">31</span><span class="p">,</span><span class="w"> </span><span class="n">28</span><span class="p">,</span><span class="w"> </span><span class="n">31</span><span class="p">,</span><span class="w"> </span><span class="n">30</span><span class="p">,</span><span class="w"> </span><span class="n">31</span><span class="p">,</span><span class="w"> </span><span class="n">30</span><span class="p">,</span><span class="w"> </span><span class="n">31</span><span class="p">,</span><span class="w"> </span><span class="n">31</span><span class="p">,</span><span class="w"> </span><span class="n">30</span><span class="p">,</span><span class="w"> </span><span class="n">31</span><span class="p">,</span><span class="w"> </span><span class="n">30</span><span class="p">,</span><span class="w"> </span><span class="n">31</span><span class="p">};</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">//   定义数字对应的笔画数</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">static</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">hz</span><span class="o">[]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="n">13</span><span class="p">,</span><span class="w"> </span><span class="n">1</span><span class="p">,</span><span class="w"> </span><span class="n">2</span><span class="p">,</span><span class="w"> </span><span class="n">3</span><span class="p">,</span><span class="w"> </span><span class="n">5</span><span class="p">,</span><span class="w"> </span><span class="n">4</span><span class="p">,</span><span class="w"> </span><span class="n">4</span><span class="p">,</span><span class="w"> </span><span class="n">2</span><span class="p">,</span><span class="w"> </span><span class="n">2</span><span class="p">,</span><span class="w"> </span><span class="n">2</span><span class="p">};</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">//    判断闰平年</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">static</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">leaq</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">year</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="n">year</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">400</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">0</span><span class="p">)</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="p">(</span><span class="n">year</span><span class="o">%</span><span class="n">4</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">0</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">year</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">100</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">0</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">solve</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">sum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">0</span><span class="p">,</span><span class="w"> </span><span class="n">cnt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">0</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">year</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">2000</span><span class="p">;</span><span class="w"> </span><span class="n">year</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">2024</span><span class="p">;</span><span class="w"> </span><span class="n">year</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">leaq</span><span class="p">(</span><span class="n">year</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                </span><span class="n">months</span><span class="o">[</span><span class="n">2</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">29</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                </span><span class="n">months</span><span class="o">[</span><span class="n">2</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">28</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">month</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">1</span><span class="p">;</span><span class="w"> </span><span class="n">month</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">12</span><span class="p">;</span><span class="w"> </span><span class="n">month</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">day</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">1</span><span class="p">;</span><span class="w"> </span><span class="n">day</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">months</span><span class="o">[</span><span class="n">month</span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="n">day</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="kt">int</span><span class="w"> </span><span class="n">year_one</span><span class="p">,</span><span class="w"> </span><span class="n">year_two</span><span class="p">,</span><span class="w"> </span><span class="n">year_three</span><span class="p">,</span><span class="w"> </span><span class="n">year_four</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="kt">int</span><span class="w"> </span><span class="n">month_one</span><span class="p">,</span><span class="w"> </span><span class="n">month_two</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="kt">int</span><span class="w"> </span><span class="n">day_one</span><span class="p">,</span><span class="w"> </span><span class="n">day_two</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="n">year_one</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">year</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">1000</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="n">year_two</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">year</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">100</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">10</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="n">year_three</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">year</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">10</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">10</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="n">year_four</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">year</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">10</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="n">month_one</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">month</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">10</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="n">month_two</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">month</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">10</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="n">day_one</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">day</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">10</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="n">day_two</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">day</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">10</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="n">sum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">hz</span><span class="o">[</span><span class="n">year_one</span><span class="o">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">hz</span><span class="o">[</span><span class="n">year_two</span><span class="o">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">hz</span><span class="o">[</span><span class="n">year_three</span><span class="o">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">hz</span><span class="o">[</span><span class="n">year_four</span><span class="o">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">hz</span><span class="o">[</span><span class="n">month_one</span><span class="o">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">hz</span><span class="o">[</span><span class="n">month_two</span><span class="o">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">hz</span><span class="o">[</span><span class="n">day_one</span><span class="o">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">hz</span><span class="o">[</span><span class="n">day_two</span><span class="o">]</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">sum</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">50</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                        </span><span class="n">cnt</span><span class="o">++</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">year</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">2024</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">month</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">4</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">day</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">13</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">cnt</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                        </span><span class="k">return</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">solve</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>也可以不用写solve()方法，直接在main写也行。</p></blockquote>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.dbaa2d2815a568ca6903275b916a91e1_hu_4af91e59cd5f7fb6.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 区间次方和-蓝桥杯"
+                        
+                        data-hash="md5-26otKBWlaMppAydbkWqR4Q==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">区间次方和-蓝桥杯</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.b0c5378254f3dbf07d7d502d92dea75d_hu_e5c4a9d99ac3741f.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 弹珠堆放-蓝桥杯"
+                        
+                        data-hash="md5-sMU3glTz2/B9fVAtkt6nXQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">弹珠堆放-蓝桥杯</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 Chiba
+    </section>
+    
+    <section class="powerby">
+        
+            Chiba <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.99ce1801c4bad426a42fc436add4721e149159dbb598636e9578fd59cf778c83.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+
+<div id="aplayer"></div>
+
+<script>
+  	const musicDir ="https://qyChiba.github.io/" + 'music/';
+  	const songs=[
+          '你离开的真相-高至豪',
+          '意外-薛之谦',
+          '唯一-邓紫棋',
+          'Love Story-Taylor Swift',
+          '青花-周传雄'
+
+      ];
+      let audios = [];
+      songs.forEach((item)=>{
+          const songInfo =item.split('-');
+          audios.push({
+              name:songInfo[0],
+              artist: songInfo[1],
+              url:musicDir +item + '/song.mp3',
+              cover: musicDir+item+'/cover.jpg',
+              lrc:musicDir+item+'/lyric.lrc'
+              });
+      })
+  const ap = new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed:true,
+      listMaxHeight: 'px',
+  	lrcType:3,
+      audio: audios
+  });
+      
+
+      window.onbeforeunload = () => {
+          
+          const playInfo = {
+              index: ap.list.index,
+              currentTime: ap.audio.currentTime,
+              paused: ap.paused
+          };
+          localStorage.setItem("playInfo", JSON.stringify(playInfo));
+      };
+
+      
+
+      window.onload = () => {
+          
+          const playInfo = JSON.parse(localStorage.getItem("playInfo"));
+          if (!playInfo) {
+              return;
+          }
+          
+          ap.list.switch(playInfo.index);
+          
+          setTimeout(() => {
+              
+              ap.seek(playInfo.currentTime);
+              
+              if (!playInfo.paused) {
+                  ap.play()
+              }
+          }, 500);
+      };
+</script>
+
+
+...
+<script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
+
+    
+    <script src=https://qyChiba.github.io/js/topbar.min.js></script>
+
+
+<script>
+  var pjax = new Pjax({
+    selectors: [".main-container"],
+  });
+
+  pjax._handleResponse = pjax.handleResponse;
+  pjax.handleResponse = function (responseText, request, href, options) {
+    if (request.responseText.match("<html")) {
+      if (responseText) {
+        
+        let newDom = new DOMParser().parseFromString(responseText, "text/html");
+        
+        let bodyClass = newDom.body.className;
+        document.body.setAttribute("class", bodyClass);
+        
+        pjax._handleResponse(responseText, request, href, options);
+        
+        
+        
+      }
+    } else {
+      
+    }
+  };
+      document.addEventListener('pjax:complete', () => {
+        
+        window.Stack.init();
+    })
+        
+    topbar.config({
+        barColors: {
+            '0': 'rgba(255,  255, 255, 1)', 
+            '1.0': 'rgba(0, 149, 234,  1)' 
+        }
+    })
+	
+    document.addEventListener('pjax:send', () => {
+        
+        topbar.show();
+    })
+	
+    document.addEventListener('pjax:complete', () => {
+        
+        topbar.hide();
+    })
+</script>
+
+    </body>
+</html>
