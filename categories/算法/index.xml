@@ -9,11 +9,11 @@
         <copyright>Chiba</copyright>
         <lastBuildDate>Mon, 01 Sep 2025 23:00:26 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/categories/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>艺术与篮球-蓝桥杯</title>
-        <link>https://qyChiba.github.io/p/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/</link>
+        <link>https://qyChiba.github.io/post/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/</link>
         <pubDate>Mon, 01 Sep 2025 23:00:26 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/p/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/</guid>
-        <description>&lt;img src="https://qyChiba.github.io/p/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg" alt="Featured image of post 艺术与篮球-蓝桥杯" /&gt;&lt;h1 id=&#34;艺术与篮球-19937&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lanqiao.cn/problems/?first_category_id=1&amp;amp;problem_id=19937&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://qyChiba.github.io/post/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/</guid>
+        <description>&lt;img src="https://qyChiba.github.io/post/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg" alt="Featured image of post 艺术与篮球-蓝桥杯" /&gt;&lt;h1 id=&#34;艺术与篮球-19937&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lanqiao.cn/problems/?first_category_id=1&amp;amp;problem_id=19937&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;艺术与篮球-19937&lt;/a&gt;
 &lt;/h1&gt;&lt;h2 id=&#34;题目&#34;&gt;题目：
 &lt;/h2&gt;&lt;p&gt;小蓝出生于一个艺术与运动并重的家庭中。&lt;/p&gt;
@@ -211,11 +211,11 @@
         </item>
         <item>
         <title>区间次方和-蓝桥杯</title>
-        <link>https://qyChiba.github.io/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/</link>
+        <link>https://qyChiba.github.io/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/</link>
         <pubDate>Sat, 30 Aug 2025 18:09:50 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/</guid>
-        <description>&lt;img src="https://qyChiba.github.io/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg" alt="Featured image of post 区间次方和-蓝桥杯" /&gt;&lt;h1 id=&#34;区间次方和---3382&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lanqiao.cn/problems/?first_category_id=1&amp;amp;problem_id=3382&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://qyChiba.github.io/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/</guid>
+        <description>&lt;img src="https://qyChiba.github.io/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg" alt="Featured image of post 区间次方和-蓝桥杯" /&gt;&lt;h1 id=&#34;区间次方和---3382&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lanqiao.cn/problems/?first_category_id=1&amp;amp;problem_id=3382&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;区间次方和 - 3382&lt;/a&gt;
 &lt;/h1&gt;&lt;h2 id=&#34;题目&#34;&gt;题目：
 &lt;/h2&gt;&lt;p&gt;给定一个长度为n的整数数组α以及m个查询。每个查询包含三个整数l,r,k表示询问l～r之间所有元素的k次方和。请对每个查询输出一个答案，答案对 10&lt;sup&gt;9&lt;/sup&gt; + 7 取
@@ -257,10 +257,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;数据规模&#34;&gt;数据规模：
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/DataTest.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/DataTest.png&#34;
 	width=&#34;416&#34;
 	height=&#34;67&#34;
-	srcset=&#34;https://qyChiba.github.io/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/DataTest_hu_d4f2fce8cc7f069f.png 480w, https://qyChiba.github.io/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/DataTest_hu_c863afb8958f50dc.png 1024w&#34;
+	srcset=&#34;https://qyChiba.github.io/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/DataTest_hu_d4f2fce8cc7f069f.png 480w, https://qyChiba.github.io/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/DataTest_hu_c863afb8958f50dc.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;数据评测&#34;
@@ -338,19 +338,19 @@
         </item>
         <item>
         <title>弹珠堆放-蓝桥杯</title>
-        <link>https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/</link>
+        <link>https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/</link>
         <pubDate>Thu, 28 Aug 2025 21:49:22 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/</guid>
-        <description>&lt;img src="https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg" alt="Featured image of post 弹珠堆放-蓝桥杯" /&gt;&lt;h1 id=&#34;弹珠堆放---17142&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lanqiao.cn/problems/?first_category_id=1&amp;amp;problem_id=17142&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/</guid>
+        <description>&lt;img src="https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg" alt="Featured image of post 弹珠堆放-蓝桥杯" /&gt;&lt;h1 id=&#34;弹珠堆放---17142&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lanqiao.cn/problems/?first_category_id=1&amp;amp;problem_id=17142&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;弹珠堆放 - 17142&lt;/a&gt;
 &lt;/h1&gt;&lt;hr&gt;
 &lt;h2 id=&#34;题目&#34;&gt;题目：
-&lt;/h2&gt;&lt;p&gt;小蓝有 20230610 颗磁力弹珠，他对金字塔形状尤其感兴趣，如图：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/TM.png&#34;
+&lt;/h2&gt;&lt;p&gt;小蓝有 20230610 颗磁力弹珠，他对金字塔形状尤其感兴趣，如图:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/TM.png&#34;
 	width=&#34;482&#34;
 	height=&#34;148&#34;
-	srcset=&#34;https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/TM_hu_9110bcd58182c3b6.png 480w, https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/TM_hu_648596158c975fa6.png 1024w&#34;
+	srcset=&#34;https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/TM_hu_9110bcd58182c3b6.png 480w, https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/TM_hu_648596158c975fa6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;题目&#34;
@@ -378,10 +378,10 @@
 第 4 层：20&lt;/p&gt;
 &lt;p&gt;所以序列是 [1, 4, 10, 20]，如果觉得看这个序列没头绪那就把前面的层数加进来看有无规律。&lt;/p&gt;
 &lt;p&gt;规律：第一层是 1 个弹珠，第二层总数为 4 个，那么第二层就是要 3 个，可以写出来：&lt;/p&gt;
-&lt;p&gt;第一层 : 1&lt;br&gt;
-第二层 : 3&lt;/p&gt;
-&lt;p&gt;那题目给的 4 就是 1+3 得来的，那么这两层之间的规律可以看出第一层需要弹珠的数量 (1) + 第二层的层数 (3) 就是前两层的总数。&lt;/p&gt;
-&lt;p&gt;那么一个简单的公式：第 n 层需要的弹珠数量 + 第 n+1 的层数 = 前 n 层的总弹珠数量。&lt;/p&gt;
+&lt;p&gt;第一层 : 1&lt;/p&gt;
+&lt;p&gt;第二层 : 3&lt;/p&gt;
+&lt;p&gt;那题目给的 4 就是 1+3 得来的，那么这两层之间的规律可以看出第一层需要弹珠的数量 (1) + 第二层的层数 (2) 就是第两层需要的弹珠数量。&lt;/p&gt;
+&lt;p&gt;那么一个简单的公式：第 n 层需要的弹珠数量 + 第 n+1 的层数 = 第 n 层需要的弹珠数量。&lt;/p&gt;
 &lt;p&gt;所以就得出要定义两个变量（高度和当前层的弹珠数量）一个常量（总数量）：&lt;/p&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;规律如图：&lt;/p&gt;&lt;/blockquote&gt;
@@ -478,7 +478,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cnt&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;high&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// 写在循环外压根执行不到这里，并且循环式死循环，因为没有停止条件。&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;out&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;pritln&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;high&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;out&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;high&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
@@ -541,10 +541,10 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
 &lt;p&gt;如果你觉得写到这里就 &lt;code&gt;结束&lt;/code&gt; 了那就错了，如果写到这里可以运行试下：显然结果是死循环。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/CW.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/CW.png&#34;
 	width=&#34;1316&#34;
 	height=&#34;958&#34;
-	srcset=&#34;https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/CW_hu_141f68a735279246.png 480w, https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/CW_hu_1557e037c9b917ef.png 1024w&#34;
+	srcset=&#34;https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/CW_hu_141f68a735279246.png 480w, https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/CW_hu_1557e037c9b917ef.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;错误截图&#34;
@@ -575,7 +575,7 @@
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;high&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cnt&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ture&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cnt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;high&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;out&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;high&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -589,10 +589,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/ZQ.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/ZQ.png&#34;
 	width=&#34;900&#34;
 	height=&#34;747&#34;
-	srcset=&#34;https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/ZQ_hu_4824db0284b0ad55.png 480w, https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/ZQ_hu_8d2351eec97390e5.png 1024w&#34;
+	srcset=&#34;https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/ZQ_hu_4824db0284b0ad55.png 480w, https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/ZQ_hu_8d2351eec97390e5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;正确截图&#34;

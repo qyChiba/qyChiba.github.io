@@ -9,11 +9,11 @@
         <copyright>Chiba</copyright>
         <lastBuildDate>Sat, 30 Aug 2025 18:09:50 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/categories/%E4%B8%80%E7%BB%B4%E5%89%8D%E7%BC%80%E5%92%8C/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>区间次方和-蓝桥杯</title>
-        <link>https://qyChiba.github.io/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/</link>
+        <link>https://qyChiba.github.io/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/</link>
         <pubDate>Sat, 30 Aug 2025 18:09:50 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/</guid>
-        <description>&lt;img src="https://qyChiba.github.io/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg" alt="Featured image of post 区间次方和-蓝桥杯" /&gt;&lt;h1 id=&#34;区间次方和---3382&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lanqiao.cn/problems/?first_category_id=1&amp;amp;problem_id=3382&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://qyChiba.github.io/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/</guid>
+        <description>&lt;img src="https://qyChiba.github.io/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg" alt="Featured image of post 区间次方和-蓝桥杯" /&gt;&lt;h1 id=&#34;区间次方和---3382&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lanqiao.cn/problems/?first_category_id=1&amp;amp;problem_id=3382&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;区间次方和 - 3382&lt;/a&gt;
 &lt;/h1&gt;&lt;h2 id=&#34;题目&#34;&gt;题目：
 &lt;/h2&gt;&lt;p&gt;给定一个长度为n的整数数组α以及m个查询。每个查询包含三个整数l,r,k表示询问l～r之间所有元素的k次方和。请对每个查询输出一个答案，答案对 10&lt;sup&gt;9&lt;/sup&gt; + 7 取
@@ -55,10 +55,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;数据规模&#34;&gt;数据规模：
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/DataTest.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/DataTest.png&#34;
 	width=&#34;416&#34;
 	height=&#34;67&#34;
-	srcset=&#34;https://qyChiba.github.io/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/DataTest_hu_d4f2fce8cc7f069f.png 480w, https://qyChiba.github.io/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/DataTest_hu_c863afb8958f50dc.png 1024w&#34;
+	srcset=&#34;https://qyChiba.github.io/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/DataTest_hu_d4f2fce8cc7f069f.png 480w, https://qyChiba.github.io/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/DataTest_hu_c863afb8958f50dc.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;数据评测&#34;

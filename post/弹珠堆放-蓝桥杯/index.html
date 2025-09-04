@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="弹珠堆放 - 17142 题目： 小蓝有 20230610 颗磁力弹珠，他对金字塔形状尤其感兴趣，如图：\n高度为 1 的金字塔需要 1 颗弹珠 高度为 2 的金字塔需要 4 颗弹珠 高度为 3 的金字塔需要 10 颗弹珠 高度为 4 的金字塔需要 20 颗弹珠 小兰想知道用他手里的弹珠可以摆出的最高金字塔高度是多少？\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="弹珠堆放 - 17142 题目： 小蓝有 20230610 颗磁力弹珠，他对金字塔形状尤其感兴趣，如图:\n高度为 1 的金字塔需要 1 颗弹珠 高度为 2 的金字塔需要 4 颗弹珠 高度为 3 的金字塔需要 10 颗弹珠 高度为 4 的金字塔需要 20 颗弹珠 小兰想知道用他手里的弹珠可以摆出的最高金字塔高度是多少？\n">
 <title>弹珠堆放-蓝桥杯</title>
 
-<link rel='canonical' href='https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/'>
+<link rel='canonical' href='https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/'>
 
 <link rel="stylesheet" href="/scss/style.min.4580eb6c9e0a20cbbb5257a0708bb8d51748210df631731786148a649072d243.css"><meta property='og:title' content="弹珠堆放-蓝桥杯">
-<meta property='og:description' content="弹珠堆放 - 17142 题目： 小蓝有 20230610 颗磁力弹珠，他对金字塔形状尤其感兴趣，如图：\n高度为 1 的金字塔需要 1 颗弹珠 高度为 2 的金字塔需要 4 颗弹珠 高度为 3 的金字塔需要 10 颗弹珠 高度为 4 的金字塔需要 20 颗弹珠 小兰想知道用他手里的弹珠可以摆出的最高金字塔高度是多少？\n">
-<meta property='og:url' content='https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/'>
+<meta property='og:description' content="弹珠堆放 - 17142 题目： 小蓝有 20230610 颗磁力弹珠，他对金字塔形状尤其感兴趣，如图:\n高度为 1 的金字塔需要 1 颗弹珠 高度为 2 的金字塔需要 4 颗弹珠 高度为 3 的金字塔需要 10 颗弹珠 高度为 4 的金字塔需要 20 颗弹珠 小兰想知道用他手里的弹珠可以摆出的最高金字塔高度是多少？\n">
+<meta property='og:url' content='https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/'>
 <meta property='og:site_name' content='千叶——AcMiner'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-08-28T21:49:22&#43;08:00'/><meta property='article:modified_time' content='2025-08-28T21:49:22&#43;08:00'/><meta property='og:image' content='https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-08-28T21:49:22&#43;08:00'/><meta property='article:modified_time' content='2025-08-28T21:49:22&#43;08:00'/><meta property='og:image' content='https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg' />
 <meta name="twitter:title" content="弹珠堆放-蓝桥杯">
-<meta name="twitter:description" content="弹珠堆放 - 17142 题目： 小蓝有 20230610 颗磁力弹珠，他对金字塔形状尤其感兴趣，如图：\n高度为 1 的金字塔需要 1 颗弹珠 高度为 2 的金字塔需要 4 颗弹珠 高度为 3 的金字塔需要 10 颗弹珠 高度为 4 的金字塔需要 20 颗弹珠 小兰想知道用他手里的弹珠可以摆出的最高金字塔高度是多少？\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://qyChiba.github.io/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg' />
+<meta name="twitter:description" content="弹珠堆放 - 17142 题目： 小蓝有 20230610 颗磁力弹珠，他对金字塔形状尤其感兴趣，如图:\n高度为 1 的金字塔需要 1 颗弹珠 高度为 2 的金字塔需要 4 颗弹珠 高度为 3 的金字塔需要 10 颗弹珠 高度为 4 的金字塔需要 20 颗弹珠 小兰想知道用他手里的弹珠可以摆出的最高金字塔高度是多少？\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -236,9 +236,9 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/">
-                <img src="/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview_hu_7b198b5ee90ea248.jpg"
-                        srcset="/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview_hu_7b198b5ee90ea248.jpg 800w, /p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview_hu_fda3abcd21426727.jpg 1600w"
+            <a href="/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/">
+                <img src="/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview_hu_7b198b5ee90ea248.jpg"
+                        srcset="/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview_hu_7b198b5ee90ea248.jpg 800w, /post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview_hu_fda3abcd21426727.jpg 1600w"
                         width="800" 
                         height="800" 
                         loading="lazy"
@@ -269,7 +269,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/">弹珠堆放-蓝桥杯</a>
+            <a href="/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/">弹珠堆放-蓝桥杯</a>
         </h2>
     
         
@@ -311,11 +311,11 @@
     >弹珠堆放 - 17142</a>
 </h1><hr>
 <h2 id="题目">题目：
-</h2><p>小蓝有 20230610 颗磁力弹珠，他对金字塔形状尤其感兴趣，如图：</p>
-<p><img src="/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/TM.png"
+</h2><p>小蓝有 20230610 颗磁力弹珠，他对金字塔形状尤其感兴趣，如图:</p>
+<p><img src="/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/TM.png"
 	width="482"
 	height="148"
-	srcset="/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/TM_hu_9110bcd58182c3b6.png 480w, /p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/TM_hu_648596158c975fa6.png 1024w"
+	srcset="/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/TM_hu_9110bcd58182c3b6.png 480w, /post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/TM_hu_648596158c975fa6.png 1024w"
 	loading="lazy"
 	
 		alt="题目"
@@ -343,10 +343,10 @@
 第 4 层：20</p>
 <p>所以序列是 [1, 4, 10, 20]，如果觉得看这个序列没头绪那就把前面的层数加进来看有无规律。</p>
 <p>规律：第一层是 1 个弹珠，第二层总数为 4 个，那么第二层就是要 3 个，可以写出来：</p>
-<p>第一层 : 1<br>
-第二层 : 3</p>
-<p>那题目给的 4 就是 1+3 得来的，那么这两层之间的规律可以看出第一层需要弹珠的数量 (1) + 第二层的层数 (3) 就是前两层的总数。</p>
-<p>那么一个简单的公式：第 n 层需要的弹珠数量 + 第 n+1 的层数 = 前 n 层的总弹珠数量。</p>
+<p>第一层 : 1</p>
+<p>第二层 : 3</p>
+<p>那题目给的 4 就是 1+3 得来的，那么这两层之间的规律可以看出第一层需要弹珠的数量 (1) + 第二层的层数 (2) 就是第两层需要的弹珠数量。</p>
+<p>那么一个简单的公式：第 n 层需要的弹珠数量 + 第 n+1 的层数 = 第 n 层需要的弹珠数量。</p>
 <p>所以就得出要定义两个变量（高度和当前层的弹珠数量）一个常量（总数量）：</p></blockquote>
 <blockquote>
 <p>规律如图：</p></blockquote>
@@ -443,7 +443,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">cnt</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">high</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// 写在循环外压根执行不到这里，并且循环式死循环，因为没有停止条件。</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">pritln</span><span class="p">(</span><span class="n">high</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">high</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><blockquote>
@@ -506,10 +506,10 @@
 </div>
 </div><blockquote>
 <p>如果你觉得写到这里就 <code>结束</code> 了那就错了，如果写到这里可以运行试下：显然结果是死循环。</p></blockquote>
-<p><img src="/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/CW.png"
+<p><img src="/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/CW.png"
 	width="1316"
 	height="958"
-	srcset="/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/CW_hu_141f68a735279246.png 480w, /p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/CW_hu_1557e037c9b917ef.png 1024w"
+	srcset="/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/CW_hu_141f68a735279246.png 480w, /post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/CW_hu_1557e037c9b917ef.png 1024w"
 	loading="lazy"
 	
 		alt="错误截图"
@@ -540,7 +540,7 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span><span class="w"> </span><span class="n">sum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">20</span><span class="p">;</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">high</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">1</span><span class="p">;</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">cnt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">1</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">ture</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="kc">true</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">sum</span><span class="w"> </span><span class="o">-=</span><span class="w"> </span><span class="n">cnt</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">high</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">high</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">1</span><span class="p">);</span><span class="w">
@@ -554,10 +554,10 @@
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
-</div><p><img src="/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/ZQ.png"
+</div><p><img src="/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/ZQ.png"
 	width="900"
 	height="747"
-	srcset="/p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/ZQ_hu_4824db0284b0ad55.png 480w, /p/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/ZQ_hu_8d2351eec97390e5.png 1024w"
+	srcset="/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/ZQ_hu_4824db0284b0ad55.png 480w, /post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/ZQ_hu_8d2351eec97390e5.png 1024w"
 	loading="lazy"
 	
 		alt="正确截图"
@@ -641,11 +641,11 @@
             
                 
 <article class="has-image">
-    <a href="/p/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/">
+    <a href="/post/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/">
         
         
             <div class="article-image">
-                <img src="/p/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.72b246df6aeff773e540ddc84cd6d0b7_hu_e30bdddd065ee0a0.jpg" 
+                <img src="/post/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.72b246df6aeff773e540ddc84cd6d0b7_hu_e30bdddd065ee0a0.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -665,11 +665,11 @@
             
                 
 <article class="has-image">
-    <a href="/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/">
+    <a href="/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/">
         
         
             <div class="article-image">
-                <img src="/p/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.dbaa2d2815a568ca6903275b916a91e1_hu_4af91e59cd5f7fb6.jpg" 
+                <img src="/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.dbaa2d2815a568ca6903275b916a91e1_hu_4af91e59cd5f7fb6.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
